@@ -1,0 +1,8 @@
+[caps]
+platformName = "android"
+deviceName = "Nexus 10"
+udid = "FAKE3220432Z"
+app = "../package/NotesList.apk"
+
+[appium_lib]
+port = "4491"

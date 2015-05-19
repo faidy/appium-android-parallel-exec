@@ -1,0 +1,8 @@
+[caps]
+platformName = "android"
+deviceName = "Lg G2"
+udid = "fake8mm458ym62ed"
+app = "../package/NotesList.apk"
+
+[appium_lib]
+port = "4492"

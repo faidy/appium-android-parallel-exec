@@ -1,0 +1,5 @@
+[caps]
+platformName = "android"
+deviceName = "General"
+app = "../package/NotesList.apk"
+

@@ -1,0 +1,6 @@
+# config/cucumber.yml
+##YAML Template
+---
+nexus10: ADEVICENAME='nexus10'
+lgg2: ADEVICENAME='lgg2'
+

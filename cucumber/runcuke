@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+appium -p 4491 -bp 2252 --chromedriver-port 9517 &
+appium -p 4492 -bp 2251 --chromedriver-port 9516 &
+sleep 20
+currDate=$(date '+%Y_%m_%d');
+if [ ! -d "./reports/${currDate}" ]; then
+mkdir "./reports/${currDate}";
+fi
+
+timeStamp=$(date '+%Y_%m_%d_%H_%M_%S');
+cucumber -p nexus10 -f html -o ./reports/"${currDate}"/"${timeStamp}_nexus10.html" &
+cucumber -p lgg2 -f html -o ./reports/"${currDate}"/"${timeStamp}_lgg2.html" &
+wait %3
+wait %4
+kill -9 %1
+kill -9 %2
