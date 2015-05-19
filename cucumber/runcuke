@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-appium -p 4491 -bp 2252 --chromedriver-port 9517 &
-appium -p 4492 -bp 2251 --chromedriver-port 9516 &
+appium -p 4491 -bp 2252 &
+appium -p 4492 -bp 2251 &
 sleep 20
 currDate=$(date '+%Y_%m_%d');
 if [ ! -d "./reports/${currDate}" ]; then
