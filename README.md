@@ -11,6 +11,6 @@
 
 ## Getting Started:
 * Change the fake serial numbers added in `/cucumber/features/support/deviceName` to the devices that you are connecting
-* Execute `./runcuke` from `/cucumber`
+* Execute `./runcuke` bash script from `/cucumber`
 * Check the reports in  `/cucumber/reports/currentDate`
-* You can add more configurations, modify the logic in `env.rb` and `./runcuke` to make run on more devices.
+* You can add more configurations, modify the logic in `env.rb` and `./runcuke` to make it run on more devices.
