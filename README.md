@@ -1,4 +1,4 @@
-# appium-android-parallel-exec
+# Android parallel execution of test cases using Appium and cucumber sample
 ## Description:
 * This is a sample that allows you to execute Andorid Appium test cases (using cucumber) in parallel on multiple Android devices.
 * Running on multiple devices requires starting appium servers at different ports and executing the test cases in parallel using them.
